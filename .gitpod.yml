@@ -1,4 +1,4 @@
-image: handsonsecurity/seed-ubuntu:large
+
 
 tasks:
   - init: |
