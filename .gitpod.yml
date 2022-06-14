@@ -1,1 +1,13 @@
 image: handsonsecurity/seed-ubuntu:large
+
+tasks:
+  - init: |
+      cd ./category-network/ARP_Attack/Labsetup &&
+      docker-compose pull
+  - command: |
+      docker-compose up
+    
+ 
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
